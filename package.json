@@ -1,0 +1,19 @@
+{
+  "name": "igs_-assignment",
+  "version": "1.0.0",
+  "description": "playwright test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.47.2",
+    "playwright": "^1.47.2"
+  },
+  "dependencies": {
+    "moment": "^2.30.1",
+    "xml-js": "^1.6.11"
+  }
+}

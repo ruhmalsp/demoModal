@@ -1,0 +1,29 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="17.751354">
+<testsuite name="src\tests\paraBank.spec.ts" timestamp="2024-09-30T17:45:43.298Z" hostname="" tests="1" failures="0" skipped="0" time="15.929" errors="0">
+<testcase name="Verify and Navigate to the target page" classname="src\tests\paraBank.spec.ts" time="15.929">
+<system-out>
+<![CDATA[accountID 29328
+res APIResponse: 200 OK
+  Date: Mon, 30 Sep 2024 17:45:50 GMT
+  Content-Type: application/xml
+  Content-Length: 45
+  Connection: keep-alive
+  CF-Cache-Status: DYNAMIC
+  Strict-Transport-Security: max-age=0; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Server: cloudflare
+  CF-RAY: 8cb60767fca747c8-BOM
+$100.00
+$100.00 has been transferred from account #29328 to account #29328.
+[
+  'Deposit via Web Service',
+  'Funds Transfer Sent',
+  'Funds Transfer Received'
+]
+
+[[ATTACHMENT|test-results\src-tests-paraBank-Verify-and-Navigate-to-the-target-page\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
