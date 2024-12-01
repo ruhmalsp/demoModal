@@ -4,7 +4,7 @@
   "description": "playwright test",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "e2e-parabank-01": "npx playwright test  src/tests/paraBank.spec.ts"
   },
   "author": "",
   "license": "ISC",
