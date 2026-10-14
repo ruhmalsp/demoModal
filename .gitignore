@@ -1,2 +1,10 @@
-# dependencies
-/node_modules
+node_modules/
+.env
+.env.*
+!.env.example
+.auth/
+playwright-report/
+test-results/
+coverage/
+*.log
+.DS_Store

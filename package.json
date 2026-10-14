@@ -1,19 +1,38 @@
 {
-  "name": "igs_-assignment",
+  "name": "playwright-agentic-qa-framework",
   "version": "1.0.0",
-  "description": "playwright test",
-  "main": "index.js",
+  "private": true,
+  "description": "Reusable Playwright UI and API framework demonstrated with Sauce Demo and DummyJSON",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint . --max-warnings=0",
+    "typecheck": "tsc --noEmit",
+    "env:validate": "playwright test --list",
+    "test:smoke": "playwright test --project=chromium --project=api --grep @smoke",
+    "test:regression": "playwright test --project=chromium --project=api --grep @regression",
+    "test:ui": "playwright test --project=chromium",
+    "test:ui:all": "playwright test --project=chromium --project=firefox --project=webkit --project=mobile-chrome --project=mobile-safari",
+    "test:api": "playwright test --project=api",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "test:mobile": "playwright test --project=mobile-chrome --project=mobile-safari",
+    "test:dev": "cross-env APP_ENV=dev playwright test --project=chromium --project=api",
+    "test:qa": "cross-env APP_ENV=qa playwright test --project=chromium --project=api",
+    "test:staging": "cross-env APP_ENV=staging playwright test --project=chromium --project=api",
+    "report": "playwright show-report"
   },
-  "author": "",
-  "license": "ISC",
+  "engines": {
+    "node": ">=20"
+  },
   "devDependencies": {
-    "@playwright/test": "^1.47.2",
-    "playwright": "^1.47.2"
-  },
-  "dependencies": {
-    "moment": "^2.30.1",
-    "xml-js": "^1.6.11"
+    "@eslint/js": "^9.39.0",
+    "@playwright/test": "^1.64.0",
+    "@types/node": "^22.19.0",
+    "cross-env": "^10.1.0",
+    "dotenv": "^16.6.1",
+    "eslint": "^9.39.0",
+    "eslint-plugin-playwright": "^2.2.2",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "8.48.0"
   }
 }
