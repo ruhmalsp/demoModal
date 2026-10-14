@@ -1,0 +1,119 @@
+- generic [ref=f1e1]:
+  - generic [ref=f1e2]:
+    - banner [ref=f1e4]:
+      - generic [ref=f1e5]:
+        - link [ref=f1e6] [cursor=pointer]:
+          - /url: /
+          - img "OneCompiler" [ref=f1e8]
+        - button "Upgrade" [ref=f1e9] [cursor=pointer]
+      - generic [ref=f1e10]:
+        - button "AI" [ref=f1e11] [cursor=pointer]
+        - button "HTML" [ref=f1e12] [cursor=pointer]
+        - button "Run" [ref=f1e13] [cursor=pointer]
+        - button [ref=f1e14] [cursor=pointer]
+      - generic [ref=f1e15]:
+        - button [ref=f1e16] [cursor=pointer]
+        - button [ref=f1e17] [cursor=pointer]
+        - button "Save" [ref=f1e18] [cursor=pointer]
+        - button [ref=f1e19] [cursor=pointer]
+        - button [ref=f1e20] [cursor=pointer]
+        - button [ref=f1e21] [cursor=pointer]
+        - button [ref=f1e22] [cursor=pointer]
+        - button "Login" [ref=f1e23] [cursor=pointer]
+    - generic [ref=f1e25]:
+      - generic [ref=f1e28]:
+        - generic [ref=f1e29]:
+          - generic [ref=f1e30]:
+            - button [ref=f1e31] [cursor=pointer]
+            - button [ref=f1e36] [cursor=pointer]
+          - generic [ref=f1e40]:
+            - button [ref=f1e41] [cursor=pointer]
+            - button [ref=f1e46] [cursor=pointer]
+        - generic [ref=f1e50]:
+          - separator
+          - generic [ref=f1e52]:
+            - generic [ref=f1e54]:
+              - generic [ref=f1e58]:
+                - generic [ref=f1e59] [cursor=pointer]:
+                  - generic [ref=f1e60]:
+                    - generic [ref=f1e61]: 
+                    - generic [ref=f1e62]: index.html
+                  - button [ref=f1e63]
+                - generic [ref=f1e67] [cursor=pointer]:
+                  - generic [ref=f1e68]:
+                    - generic [ref=f1e69]: 
+                    - generic [ref=f1e70]: styles.css
+                  - button [ref=f1e71]
+                - generic [ref=f1e75] [cursor=pointer]:
+                  - generic [ref=f1e76]:
+                    - generic [ref=f1e77]: 
+                    - generic [ref=f1e78]: script.js
+                  - button [ref=f1e79]
+                - button [ref=f1e83] [cursor=pointer]
+              - code [ref=f1e89]:
+                - generic [ref=f1e90]:
+                  - generic [aria-hidden] [ref=f1e92]:
+                    - generic [ref=f1e93]: "1"
+                    - generic [ref=f1e96]:
+                      - generic [ref=f1e97] [cursor=pointer]: 
+                      - generic [ref=f1e98]: "2"
+                    - generic [ref=f1e99]:
+                      - generic [ref=f1e100] [cursor=pointer]: 
+                      - generic [ref=f1e101]: "3"
+                    - generic [ref=f1e102]: "4"
+                    - generic [ref=f1e104]: "5"
+                    - generic [ref=f1e106]: "6"
+                    - generic [ref=f1e108]:
+                      - generic [ref=f1e109] [cursor=pointer]: 
+                      - generic [ref=f1e110]: "7"
+                    - generic [ref=f1e111]: "8"
+                    - generic [ref=f1e113]: "9"
+                    - generic [ref=f1e115]: "10"
+                    - generic [ref=f1e117]: "11"
+                    - generic [ref=f1e119]: "12"
+                  - generic [aria-hidden] [ref=f1e154]:
+                    - generic [ref=f1e155]: <!DOCTYPE html>
+                    - generic [ref=f1e157]: <html>
+                    - generic [ref=f1e159]: <head>
+                    - generic [ref=f1e161]: <title>Hello, World!</title>
+                    - generic [ref=f1e163]: <link rel="stylesheet" href="styles.css" />
+                    - generic [ref=f1e165]: </head>
+                    - generic [ref=f1e167]: <body>
+                    - generic [ref=f1e169]: <h1 class="title">Hello World!</h1>
+                    - generic [ref=f1e171]: <p id="currentTime"></p>
+                    - generic [ref=f1e173]: <script src="script.js"></script>
+                    - generic [ref=f1e175]: </body>
+                    - generic [ref=f1e177]: </html>
+                  - textbox "Editor content" [active] [ref=f1e180]: <!DOCTYPE html> <html> <head> <title>Hello, World!</title> <link rel="stylesheet" href="styles.css" /> </head> <body> <h1 class="title">Hello World!</h1> <p id="currentTime"></p> <script src="script.js"></script>
+            - separator [ref=f1e181]
+            - generic [ref=f1e183]:
+              - generic [ref=f1e184]:
+                - generic [ref=f1e186]:
+                  - button "Preview" [ref=f1e187] [cursor=pointer]
+                  - button "AI Agent" [ref=f1e192] [cursor=pointer]
+                - generic [ref=f1e197]:
+                  - button "Back" [disabled]
+                  - button "Forward" [disabled]
+                  - button "Reload page" [disabled]
+                  - textbox "Preview address" [disabled] [ref=f1e198]:
+                    - /placeholder: /
+                    - text: /
+              - generic [ref=f1e201]:
+                - generic [ref=f1e202]:
+                  - generic [ref=f1e203]: Loading preview...
+                  - iframe [ref=f1e207]:
+                    - iframe [ref=f2e3]
+                - generic [ref=f1e209]:
+                  - button "Console" [ref=f1e210] [cursor=pointer]
+                  - button "Console settings" [ref=f1e215] [cursor=pointer]
+      - generic [ref=f1e219]:
+        - generic [ref=f1e220]: Ready
+        - generic [ref=f1e226]:
+          - generic [ref=f1e227]:
+            - button "Light" [ref=f1e228] [cursor=pointer]
+            - button [ref=f1e229] [cursor=pointer]
+          - button "Wiki" [ref=f1e235] [cursor=pointer]
+  - alert [ref=f1e239]
+  - generic [ref=f1e240]:
+    - alert
+    - alert

@@ -1,0 +1,44 @@
+name: Playwright checks
+
+permissions:
+  contents: read
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '0 5 * * 1'
+  workflow_dispatch:
+
+jobs:
+  quality-and-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      APP_ENV: dev
+      DEV_USERNAME: ${{ secrets.DEV_USERNAME }}
+      DEV_PASSWORD: ${{ secrets.DEV_PASSWORD }}
+      DEV_LOCKED_USERNAME: ${{ secrets.DEV_LOCKED_USERNAME }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - run: npm run lint
+      - run: npm run typecheck
+      - if: github.event_name == 'schedule'
+        run: npm run test:regression
+      - if: github.event_name != 'schedule'
+        run: npm run test:smoke
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-results
+          path: |
+            playwright-report/
+            test-results/
+          if-no-files-found: ignore

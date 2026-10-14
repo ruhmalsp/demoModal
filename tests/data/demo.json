@@ -1,0 +1,22 @@
+{
+  "productName": "Sauce Labs Backpack",
+  "productPrice": "$29.99",
+  "productId": 1,
+  "apiProductTitle": "Essence Mascara Lash Princess",
+  "apiAddedProductTitle": "Temporary framework test item",
+  "apiUpdatedProductTitle": "Updated demo title",
+  "apiPatchedProductTitle": "Partially updated demo title",
+  "inventoryTitle": "Products",
+  "checkout": {
+    "firstName": "Demo",
+    "lastName": "Customer",
+    "postalCode": "12345"
+  },
+  "expected": {
+    "loginError": "Username and password do not match any user in this service",
+    "lockedLoginError": "locked out",
+    "checkoutComplete": "Thank you for your order!",
+    "minimumProducts": 1,
+    "productCount": 6
+  }
+}

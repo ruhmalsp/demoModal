@@ -1,0 +1,729 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - button "Menu" [ref=e4] [cursor=pointer]
+      - link [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "OneCompiler" [ref=e7]
+      - button "search" [ref=e9] [cursor=pointer]
+      - button "dark mode" [ref=e10] [cursor=pointer]
+      - generic [ref=e11]:
+        - link [ref=e12] [cursor=pointer]:
+          - /url: /pricing
+          - button "Pricing" [ref=e13]
+        - button "Learn" [ref=e15] [cursor=pointer]
+        - button "Code" [ref=e17] [cursor=pointer]
+        - button "Deploy" [ref=e19] [cursor=pointer]
+        - button "More" [ref=e21] [cursor=pointer]
+        - button "Login" [ref=e23] [cursor=pointer]
+  - generic [ref=e26]:
+    - heading "Code online with One Compiler." [level=2] [ref=e27]:
+      - generic [ref=e28]: Code online with
+      - text: One Compiler.
+    - paragraph [ref=e29]: One Compiler helps over 12.8 million users worldwide write code online.
+  - generic [ref=e30]:
+    - textbox "Search by Language/ DB/ Template etc.," [ref=e37]
+    - tablist [ref=e40]:
+      - tab "Popular" [selected] [ref=e41] [cursor=pointer]
+      - tab "Programming" [ref=e42] [cursor=pointer]
+      - tab "Web" [ref=e43] [cursor=pointer]
+      - tab "Databases" [ref=e44] [cursor=pointer]
+    - generic [ref=e46]:
+      - link "HTML HTML" [ref=e47] [cursor=pointer]:
+        - /url: /html
+        - generic [ref=e49]:
+          - generic [ref=e50]: HTML
+          - img "HTML" [ref=e51]
+      - link "Python Python" [ref=e52] [cursor=pointer]:
+        - /url: /python
+        - generic [ref=e54]:
+          - generic [ref=e55]: Python
+          - img "Python" [ref=e56]
+      - link "JavaScript JavaScript" [ref=e57] [cursor=pointer]:
+        - /url: /javascript
+        - generic [ref=e59]:
+          - generic [ref=e60]: JavaScript
+          - img "JavaScript" [ref=e61]
+      - link "Java Java" [ref=e62] [cursor=pointer]:
+        - /url: /java
+        - generic [ref=e64]:
+          - generic [ref=e65]: Java
+          - img "Java" [ref=e66]
+      - link "MySQL MySQL" [ref=e67] [cursor=pointer]:
+        - /url: /mysql
+        - generic [ref=e69]:
+          - generic [ref=e70]: MySQL
+          - img "MySQL" [ref=e71]
+      - link "C C" [ref=e72] [cursor=pointer]:
+        - /url: /c
+        - generic [ref=e74]:
+          - generic [ref=e75]: C
+          - img "C" [ref=e76]
+      - link "C++ C++" [ref=e77] [cursor=pointer]:
+        - /url: /cpp
+        - generic [ref=e79]:
+          - generic [ref=e80]: C++
+          - img "C++" [ref=e81]
+      - link "PHP PHP" [ref=e82] [cursor=pointer]:
+        - /url: /php
+        - generic [ref=e84]:
+          - generic [ref=e85]: PHP
+          - img "PHP" [ref=e86]
+      - link "C# C#" [ref=e87] [cursor=pointer]:
+        - /url: /csharp
+        - generic [ref=e89]:
+          - generic [ref=e90]: C#
+          - img "C#" [ref=e91]
+      - link "New FastAPI FastAPI" [ref=e92] [cursor=pointer]:
+        - /url: /fastapi
+        - generic [ref=e93]:
+          - generic: New
+          - generic [ref=e94]:
+            - generic [ref=e95]: FastAPI
+            - img "FastAPI" [ref=e96]
+      - link "Lua Lua" [ref=e97] [cursor=pointer]:
+        - /url: /lua
+        - generic [ref=e99]:
+          - generic [ref=e100]: Lua
+          - img "Lua" [ref=e101]
+      - link "PL/SQL Oracle PL/SQL" [ref=e102] [cursor=pointer]:
+        - /url: /plsql
+        - generic [ref=e104]:
+          - generic [ref=e105]: PL/SQL
+          - img "Oracle PL/SQL" [ref=e106]
+      - link "NodeJS NodeJS" [ref=e107] [cursor=pointer]:
+        - /url: /nodejs
+        - generic [ref=e109]:
+          - generic [ref=e110]: NodeJS
+          - img "NodeJS" [ref=e111]
+      - link "MongoDB MongoDB" [ref=e112] [cursor=pointer]:
+        - /url: /mongodb
+        - generic [ref=e114]:
+          - generic [ref=e115]: MongoDB
+          - img "MongoDB" [ref=e116]
+      - link "New Spring Boot Spring Boot" [ref=e117] [cursor=pointer]:
+        - /url: /spring-boot
+        - generic [ref=e118]:
+          - generic: New
+          - generic [ref=e119]:
+            - generic [ref=e120]: Spring Boot
+            - img "Spring Boot" [ref=e121]
+      - link "React React" [ref=e122] [cursor=pointer]:
+        - /url: /react
+        - generic [ref=e124]:
+          - generic [ref=e125]: React
+          - img "React" [ref=e126]
+      - link "PostgreSQL PostgreSQL" [ref=e127] [cursor=pointer]:
+        - /url: /postgresql
+        - generic [ref=e129]:
+          - generic [ref=e130]: PostgreSQL
+          - img "PostgreSQL" [ref=e131]
+      - link "New Pygame Pygame" [ref=e132] [cursor=pointer]:
+        - /url: /pygame
+        - generic [ref=e133]:
+          - generic: New
+          - generic [ref=e134]:
+            - generic [ref=e135]: Pygame
+            - img "Pygame" [ref=e136]
+  - generic [ref=e139]:
+    - heading "Users from world's top companies and schools" [level=5] [ref=e140]
+    - generic [ref=e141]:
+      - img "Microsoft" [ref=e144]
+      - img "Meta" [ref=e147]
+      - img "Nvidia" [ref=e150]
+      - img "Stripe" [ref=e153]
+      - img "Perplexity" [ref=e156]
+      - img "Samsung" [ref=e159]
+      - img "Amazon" [ref=e162]
+      - img "Google" [ref=e165]
+      - img "IBM" [ref=e168]
+      - img "WalMart" [ref=e171]
+      - img "Intel" [ref=e174]
+      - img "Paypal" [ref=e177]
+      - img "Harvard" [ref=e180]
+      - img "Princeton" [ref=e183]
+      - img "MIT" [ref=e186]
+      - img "Yale" [ref=e189]
+      - img "Stanford" [ref=e192]
+      - img "cam" [ref=e195]
+    - heading "+ thousands of other companies and schools" [level=6] [ref=e196]
+  - generic [ref=e197]:
+    - heading "APIs, Editor embedding & more" [level=4] [ref=e199]
+    - generic [ref=e200]:
+      - generic [ref=e202]:
+        - heading "Embed Editor & Challenges" [level=6] [ref=e206]
+        - paragraph [ref=e207]: Embed our Editor & Challenges as an iFrame into your website to get the code execution capabilities in minutes.
+      - generic [ref=e209]:
+        - heading "APIs to run code" [level=6] [ref=e213]
+        - paragraph [ref=e214]: Build more complex use-cases by calling our APIs from your backend applications to run code, read reports etc.,
+      - generic [ref=e216]:
+        - heading "Custom workflows" [level=6] [ref=e221]
+        - paragraph [ref=e222]: Reach out to us to build custom workflows that are not covered by APIs, to solve your use-cases
+    - link "Read API Documentation" [ref=e224] [cursor=pointer]:
+      - /url: /apis
+  - heading "100+ customers across the globe trust us" [level=5] [ref=e231]
+  - generic [ref=e270]:
+    - generic [ref=e271]:
+      - heading "State-of-the-art coding agents in your browser." [level=3] [ref=e272]: State-of-the-art coding agentsin your browser.
+      - paragraph [ref=e273]: The agent inside the editor reads your workspace, edits files in place, creates new ones and cleans up after itself, step by step, while you watch. Every change lands behind a checkpoint you can roll back. Nothing to install.
+      - generic [ref=e274]:
+        - link "Open the editor" [ref=e275] [cursor=pointer]:
+          - /url: /html
+        - generic [ref=e276]: Free to use, in 110+ languages
+    - generic [ref=e277]:
+      - generic [ref=e282]:
+        - generic [ref=e283]: index.html
+        - generic [ref=e284]: styles.css
+        - generic [ref=e285]: script.js
+        - generic [ref=e286]: Run
+        - generic [ref=e289]: AI Agent
+      - generic [ref=e295]:
+        - generic [ref=e296]:
+          - generic [ref=e297]:
+            - generic [ref=e298]:
+              - generic [ref=e299]: "1"
+              - generic [ref=e300]: <!doctype html>
+            - generic [ref=e301]:
+              - generic [ref=e302]: "2"
+              - generic [ref=e303]:
+                - text: <html lang=
+                - generic [ref=e304]: "\"en\""
+                - text: ">"
+            - generic [ref=e305]:
+              - generic [ref=e306]: "3"
+              - generic [ref=e307]: <head>
+            - generic [ref=e308]:
+              - generic [ref=e309]: "4"
+              - generic [ref=e310]:
+                - text: <meta charset=
+                - generic [ref=e311]: "\"utf-8\""
+                - text: />
+            - generic [ref=e312]:
+              - generic [ref=e313]: "5"
+              - generic [ref=e314]: <title>My site</title>
+            - generic [ref=e315]:
+              - generic [ref=e316]: "6"
+              - generic [ref=e317]:
+                - text: <link rel=
+                - generic [ref=e318]: "\"stylesheet\""
+                - text: href=
+                - generic [ref=e319]: "\"styles.css\""
+                - text: />
+            - generic [ref=e320]:
+              - generic [ref=e321]: "7"
+              - generic [ref=e322]: </head>
+            - generic [ref=e323]:
+              - generic [ref=e324]: "8"
+              - generic [ref=e325]: <body>
+            - generic [ref=e326]:
+              - generic [ref=e327]: "9"
+              - generic [ref=e328]: <header>
+            - generic [ref=e329]:
+              - generic [ref=e330]: "10"
+              - generic [ref=e331]: <h1>My site</h1>
+            - generic [ref=e332]:
+              - generic [ref=e333]: "11"
+              - generic [ref=e334]:
+                - text: <button id=
+                - generic [ref=e335]: "\"theme-toggle\""
+                - text: aria-label=
+                - generic [ref=e336]: "\"Toggle dark mode\""
+                - text: ">🌙</button>"
+            - generic [ref=e337]:
+              - generic [ref=e338]: "12"
+              - generic [ref=e339]: </header>
+            - generic [ref=e340]:
+              - generic [ref=e341]: "13"
+              - generic [ref=e342]: <main>…</main>
+            - generic [ref=e343]:
+              - generic [ref=e344]: "14"
+              - generic [ref=e345]:
+                - text: <script src=
+                - generic [ref=e346]: "\"script.js\""
+                - text: "></script>"
+            - generic [ref=e347]:
+              - generic [ref=e348]: "15"
+              - generic [ref=e349]: </body>
+            - generic [ref=e350]:
+              - generic [ref=e351]: "16"
+              - generic [ref=e352]: </html>
+          - generic [ref=e353]:
+            - generic [ref=e356]: 1 of 3 · index.html
+            - generic [ref=e360]: Reject
+            - generic [ref=e361]: Apply
+        - generic [ref=e362]:
+          - generic [ref=e363]:
+            - generic [ref=e364]: Add a dark mode toggle to the header and remember the choice.
+            - generic [ref=e366]:
+              - list [ref=e367]:
+                - listitem [ref=e368]: Checking the header markup and the existing styles.
+                - listitem [ref=e369]:
+                  - generic [ref=e375]: Read
+                  - generic [ref=e376]: styles.css
+                - listitem [ref=e377]:
+                  - generic [ref=e381]: Edited
+                  - generic [ref=e382]: index.html
+                - listitem [ref=e383]:
+                  - generic [ref=e387]: Edited
+                  - generic [ref=e388]: styles.css
+                - listitem [ref=e389]:
+                  - generic [ref=e393]: Created
+                  - generic [ref=e394]: script.js
+              - paragraph [ref=e395]:
+                - text: The header has a toggle button now.
+                - code [ref=e396]: styles.css
+                - text: switches colours on a
+                - code [ref=e397]: dark
+                - text: class, and
+                - code [ref=e398]: script.js
+                - text: saves the choice in localStorage so it sticks on refresh. Run it and try the button.
+              - generic [ref=e399]:
+                - generic [ref=e400]: 4 steps · Edited index.html, styles.css · Created script.js
+                - generic [ref=e401]:
+                  - generic [ref=e402]: 2.8k tokens · 5.4s
+                  - generic [ref=e403]: Restore
+          - generic [ref=e407]:
+            - generic [ref=e408]:
+              - generic [ref=e410]: 3 files changed
+              - generic [ref=e411]: +41 −6
+              - generic [ref=e412]:
+                - generic [ref=e413]: Reject
+                - generic [ref=e414]: Apply
+            - generic [ref=e415]:
+              - generic [ref=e416]: Ask anything, or describe a change. Type / for commands
+              - generic [ref=e417]: Model ▾
+    - generic [ref=e430]:
+      - generic [ref=e436]:
+        - generic [ref=e437]: Edits land in your files
+        - paragraph [ref=e438]: Changes stream straight into the editor with every changed line marked.
+      - generic [ref=e445]:
+        - generic [ref=e446]: Multi-step turns
+        - paragraph [ref=e447]: Reads, edits, creates and deletes files across your workspace to finish one instruction.
+      - generic [ref=e454]:
+        - generic [ref=e455]: Every turn is a checkpoint
+        - paragraph [ref=e456]: Restore it, re-apply it, or go file by file with Apply and Reject before you move on.
+      - generic [ref=e462]:
+        - generic [ref=e463]: It sees what you see
+        - paragraph [ref=e464]: Your files, input, the last run's output and the code you've selected.
+      - generic [ref=e470]:
+        - generic [ref=e471]: Talk, paste, attach
+        - paragraph [ref=e472]: Dictate with the mic, paste a screenshot, or attach files to a turn.
+      - generic [ref=e476]:
+        - generic [ref=e477]: Your model, your call
+        - paragraph [ref=e478]: Models from OpenAI, Anthropic, Google, DeepSeek, xAI and more. Free ones included.
+    - generic [ref=e479]:
+      - generic [ref=e480]: OpenAI
+      - generic [ref=e482]: Anthropic
+      - generic [ref=e484]: Google
+      - generic [ref=e486]: DeepSeek
+      - generic [ref=e488]: xAI
+      - generic [ref=e490]: Moonshot AI
+      - generic [ref=e492]: Qwen
+      - generic [ref=e494]: Meta
+  - contentinfo [ref=e496]:
+    - generic [ref=e497]:
+      - generic [ref=e498]:
+        - generic [ref=e499]:
+          - heading "OneCompiler.com" [level=6] [ref=e500]
+          - generic [ref=e501]:
+            - link "About" [ref=e502] [cursor=pointer]:
+              - /url: /about
+            - link "Use Cases" [ref=e503] [cursor=pointer]:
+              - /url: /customer-use-cases
+            - link "Contact" [ref=e504] [cursor=pointer]:
+              - /url: /contact
+          - generic [ref=e505]:
+            - link "Users" [ref=e506] [cursor=pointer]:
+              - /url: /users
+            - link "Status" [ref=e507] [cursor=pointer]:
+              - /url: https://status.onecompiler.com
+            - link "Pricing" [ref=e508] [cursor=pointer]:
+              - /url: /pricing
+            - link "Refund Policy" [ref=e509] [cursor=pointer]:
+              - /url: /about#refund-policy
+          - generic [ref=e510]:
+            - link "GitHub" [ref=e511] [cursor=pointer]:
+              - /url: https://github.com/onecompiler
+            - link "LinkedIn" [ref=e512] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/onecompiler
+            - link "Facebook" [ref=e513] [cursor=pointer]:
+              - /url: https://www.facebook.com/onecompiler
+            - link "Instagram" [ref=e514] [cursor=pointer]:
+              - /url: https://www.instagram.com/onecompiler
+            - link "Twitter" [ref=e515] [cursor=pointer]:
+              - /url: https://twitter.com/OneCompilerHQ
+        - generic [ref=e516]:
+          - heading "Languages" [level=6] [ref=e517]
+          - generic [ref=e518]:
+            - link "Python" [ref=e519] [cursor=pointer]:
+              - /url: /python
+            - link "Java" [ref=e520] [cursor=pointer]:
+              - /url: /java
+            - link "C" [ref=e521] [cursor=pointer]:
+              - /url: /c
+            - link "C++" [ref=e522] [cursor=pointer]:
+              - /url: /cpp
+            - link "JavaScript" [ref=e523] [cursor=pointer]:
+              - /url: /javascript
+            - link "Lua" [ref=e524] [cursor=pointer]:
+              - /url: /lua
+            - link "PHP" [ref=e525] [cursor=pointer]:
+              - /url: /php
+            - link "C#" [ref=e526] [cursor=pointer]:
+              - /url: /csharp
+            - link "FastAPI" [ref=e527] [cursor=pointer]:
+              - /url: /fastapi
+            - link "Spring Boot" [ref=e528] [cursor=pointer]:
+              - /url: /spring-boot
+            - link "Tkinter" [ref=e529] [cursor=pointer]:
+              - /url: /tkinter
+            - link "NodeJS" [ref=e530] [cursor=pointer]:
+              - /url: /nodejs
+            - link "Express" [ref=e531] [cursor=pointer]:
+              - /url: /express
+            - link "Fastify" [ref=e532] [cursor=pointer]:
+              - /url: /fastify
+            - link "NestJS" [ref=e533] [cursor=pointer]:
+              - /url: /nestjs
+            - link "Flask" [ref=e534] [cursor=pointer]:
+              - /url: /flask
+            - link "Django" [ref=e535] [cursor=pointer]:
+              - /url: /django
+            - link "Streamlit" [ref=e536] [cursor=pointer]:
+              - /url: /streamlit
+            - link "PHP Web" [ref=e537] [cursor=pointer]:
+              - /url: /php-web
+            - link "Laravel" [ref=e538] [cursor=pointer]:
+              - /url: /laravel
+            - link "Symfony" [ref=e539] [cursor=pointer]:
+              - /url: /symfony
+            - link "Gradio" [ref=e540] [cursor=pointer]:
+              - /url: /gradio
+            - link "Javalin" [ref=e541] [cursor=pointer]:
+              - /url: /javalin
+            - link "Koa" [ref=e542] [cursor=pointer]:
+              - /url: /koa
+            - link "Hono" [ref=e543] [cursor=pointer]:
+              - /url: /hono
+            - link "Assembly" [ref=e544] [cursor=pointer]:
+              - /url: /assembly
+            - link "Bash" [ref=e545] [cursor=pointer]:
+              - /url: /bash
+            - link "PowerShell" [ref=e546] [cursor=pointer]:
+              - /url: /powershell
+            - link "Visual Basic (VB.NET)" [ref=e547] [cursor=pointer]:
+              - /url: /vb
+            - link "Kotlin" [ref=e548] [cursor=pointer]:
+              - /url: /kotlin
+            - link "Pascal" [ref=e549] [cursor=pointer]:
+              - /url: /pascal
+            - link "Ruby" [ref=e550] [cursor=pointer]:
+              - /url: /ruby
+            - link "Ruby on Rails" [ref=e551] [cursor=pointer]:
+              - /url: /rails
+            - link "Groovy" [ref=e552] [cursor=pointer]:
+              - /url: /groovy
+            - link "Scala" [ref=e553] [cursor=pointer]:
+              - /url: /scala
+            - link "Prolog" [ref=e554] [cursor=pointer]:
+              - /url: /prolog
+            - link "Tcl" [ref=e555] [cursor=pointer]:
+              - /url: /tcl
+            - link "TypeScript" [ref=e556] [cursor=pointer]:
+              - /url: /typescript
+            - link "Matplotlib" [ref=e557] [cursor=pointer]:
+              - /url: /matplotlib
+            - link "JShell" [ref=e558] [cursor=pointer]:
+              - /url: /jshell
+            - link "Haskell" [ref=e559] [cursor=pointer]:
+              - /url: /haskell
+            - link "Ada" [ref=e560] [cursor=pointer]:
+              - /url: /ada
+            - link "CommonLisp" [ref=e561] [cursor=pointer]:
+              - /url: /commonlisp
+            - link "D" [ref=e562] [cursor=pointer]:
+              - /url: /d
+            - link "Elixir" [ref=e563] [cursor=pointer]:
+              - /url: /elixir
+            - link "Erlang" [ref=e564] [cursor=pointer]:
+              - /url: /erlang
+            - link "F#" [ref=e565] [cursor=pointer]:
+              - /url: /fsharp
+            - link "Fortran" [ref=e566] [cursor=pointer]:
+              - /url: /fortran
+            - link "Python2" [ref=e567] [cursor=pointer]:
+              - /url: /python2
+            - link "Perl" [ref=e568] [cursor=pointer]:
+              - /url: /perl
+            - link "Go" [ref=e569] [cursor=pointer]:
+              - /url: /go
+            - link "Gin" [ref=e570] [cursor=pointer]:
+              - /url: /gin
+            - link "Echo" [ref=e571] [cursor=pointer]:
+              - /url: /echo
+            - link "Fiber" [ref=e572] [cursor=pointer]:
+              - /url: /fiber
+            - link "Bottle" [ref=e573] [cursor=pointer]:
+              - /url: /bottle
+            - link "Tornado" [ref=e574] [cursor=pointer]:
+              - /url: /tornado
+            - link "Java Swing" [ref=e575] [cursor=pointer]:
+              - /url: /java-swing
+            - link "JavaFX" [ref=e576] [cursor=pointer]:
+              - /url: /javafx
+            - link "Avalonia" [ref=e577] [cursor=pointer]:
+              - /url: /avalonia
+            - link "raylib" [ref=e578] [cursor=pointer]:
+              - /url: /raylib
+            - link "R" [ref=e579] [cursor=pointer]:
+              - /url: /r
+            - link "Racket" [ref=e580] [cursor=pointer]:
+              - /url: /racket
+            - link "OCaml" [ref=e581] [cursor=pointer]:
+              - /url: /ocaml
+            - link "Basic" [ref=e582] [cursor=pointer]:
+              - /url: /basic
+            - link "HTML" [ref=e583] [cursor=pointer]:
+              - /url: /html
+            - link "React" [ref=e584] [cursor=pointer]:
+              - /url: /react
+            - link "Vue" [ref=e585] [cursor=pointer]:
+              - /url: /vue
+            - link "Angular" [ref=e586] [cursor=pointer]:
+              - /url: /angular
+            - link "Next.js" [ref=e587] [cursor=pointer]:
+              - /url: /nextjs
+            - link "Svelte" [ref=e588] [cursor=pointer]:
+              - /url: /svelte
+            - link "Preact" [ref=e589] [cursor=pointer]:
+              - /url: /preact
+            - link "Lit" [ref=e590] [cursor=pointer]:
+              - /url: /lit
+            - link "MUI" [ref=e591] [cursor=pointer]:
+              - /url: /mui
+            - link "Chakra UI" [ref=e592] [cursor=pointer]:
+              - /url: /chakra-ui
+            - link "shadcn" [ref=e593] [cursor=pointer]:
+              - /url: /shadcn
+            - link "Mantine" [ref=e594] [cursor=pointer]:
+              - /url: /mantine
+            - link "React Bootstrap" [ref=e595] [cursor=pointer]:
+              - /url: /react-bootstrap
+            - link "Radix UI" [ref=e596] [cursor=pointer]:
+              - /url: /radix-ui
+            - link "Headless UI" [ref=e597] [cursor=pointer]:
+              - /url: /headless-ui
+            - link "PrimeReact" [ref=e598] [cursor=pointer]:
+              - /url: /primereact
+            - link "Vuetify" [ref=e599] [cursor=pointer]:
+              - /url: /vuetify
+            - link "Materialize" [ref=e600] [cursor=pointer]:
+              - /url: /materialize
+            - link "Bootstrap" [ref=e601] [cursor=pointer]:
+              - /url: /bootstrap
+            - link "Tailwind CSS" [ref=e602] [cursor=pointer]:
+              - /url: /tailwindcss
+            - link "Sass / SCSS" [ref=e603] [cursor=pointer]:
+              - /url: /sass
+            - link "HTMX" [ref=e604] [cursor=pointer]:
+              - /url: /htmx
+            - link "Alpine.js" [ref=e605] [cursor=pointer]:
+              - /url: /alpinejs
+            - link "Ionic" [ref=e606] [cursor=pointer]:
+              - /url: /ionic
+            - link "Chart.js" [ref=e607] [cursor=pointer]:
+              - /url: /chartjs
+            - link "D3.js" [ref=e608] [cursor=pointer]:
+              - /url: /d3js
+            - link "Recharts" [ref=e609] [cursor=pointer]:
+              - /url: /recharts
+            - link "Three.js" [ref=e610] [cursor=pointer]:
+              - /url: /threejs
+            - link "Mermaid" [ref=e611] [cursor=pointer]:
+              - /url: /mermaid
+            - link "Reveal.js" [ref=e612] [cursor=pointer]:
+              - /url: /revealjs
+            - link "Anime.js" [ref=e613] [cursor=pointer]:
+              - /url: /animejs
+            - link "GSAP" [ref=e614] [cursor=pointer]:
+              - /url: /gsap
+            - link "Motion" [ref=e615] [cursor=pointer]:
+              - /url: /motion
+            - link "ECharts" [ref=e616] [cursor=pointer]:
+              - /url: /echarts
+            - link "PixiJS" [ref=e617] [cursor=pointer]:
+              - /url: /pixijs
+            - link "Leaflet" [ref=e618] [cursor=pointer]:
+              - /url: /leaflet
+            - link "daisyUI" [ref=e619] [cursor=pointer]:
+              - /url: /daisyui
+            - link "Phaser" [ref=e620] [cursor=pointer]:
+              - /url: /phaser
+            - link "p5.js" [ref=e621] [cursor=pointer]:
+              - /url: /p5js
+            - link "Marked" [ref=e622] [cursor=pointer]:
+              - /url: /marked
+            - link "KaTeX" [ref=e623] [cursor=pointer]:
+              - /url: /katex
+            - link "JQuery" [ref=e624] [cursor=pointer]:
+              - /url: /jquery
+            - link "Foundation" [ref=e625] [cursor=pointer]:
+              - /url: /foundation
+            - link "Bulma" [ref=e626] [cursor=pointer]:
+              - /url: /bulma
+            - link "Uikit" [ref=e627] [cursor=pointer]:
+              - /url: /uikit
+            - link "Semantic UI" [ref=e628] [cursor=pointer]:
+              - /url: /semanticUI
+            - link "Skeleton" [ref=e629] [cursor=pointer]:
+              - /url: /skeleton
+            - link "Milligram" [ref=e630] [cursor=pointer]:
+              - /url: /milligram
+            - link "PaperCSS" [ref=e631] [cursor=pointer]:
+              - /url: /paperCss
+            - link "BackboneJS" [ref=e632] [cursor=pointer]:
+              - /url: /backbonejs
+            - link "sh (Shell Script)" [ref=e633] [cursor=pointer]:
+              - /url: /sh
+            - link "Clojure" [ref=e634] [cursor=pointer]:
+              - /url: /clojure
+            - link "Cobol" [ref=e635] [cursor=pointer]:
+              - /url: /cobol
+            - link "Rust" [ref=e636] [cursor=pointer]:
+              - /url: /rust
+            - link "Solidity" [ref=e637] [cursor=pointer]:
+              - /url: /solidity
+            - link "Axum" [ref=e638] [cursor=pointer]:
+              - /url: /axum
+            - link "Swift" [ref=e639] [cursor=pointer]:
+              - /url: /swift
+            - link "Objective-C" [ref=e640] [cursor=pointer]:
+              - /url: /objectivec
+            - link "Octave" [ref=e641] [cursor=pointer]:
+              - /url: /octave
+            - link "Text" [ref=e642] [cursor=pointer]:
+              - /url: /text
+            - link "BrainFK" [ref=e643] [cursor=pointer]:
+              - /url: /brainfk
+            - link "CoffeeScript" [ref=e644] [cursor=pointer]:
+              - /url: /coffeescript
+            - link "EJS" [ref=e645] [cursor=pointer]:
+              - /url: /ejs
+            - link "Dart" [ref=e646] [cursor=pointer]:
+              - /url: /dart
+            - link "Deno" [ref=e647] [cursor=pointer]:
+              - /url: /deno
+            - link "Bun" [ref=e648] [cursor=pointer]:
+              - /url: /bun
+            - link "Turtle" [ref=e649] [cursor=pointer]:
+              - /url: /turtle
+            - link "Seaborn" [ref=e650] [cursor=pointer]:
+              - /url: /seaborn
+            - link "Pygame" [ref=e651] [cursor=pointer]:
+              - /url: /pygame
+            - link "Crystal" [ref=e652] [cursor=pointer]:
+              - /url: /crystal
+            - link "Julia" [ref=e653] [cursor=pointer]:
+              - /url: /julia
+            - link "Zig" [ref=e654] [cursor=pointer]:
+              - /url: /zig
+            - link "AWK" [ref=e655] [cursor=pointer]:
+              - /url: /awk
+            - link "ISPC" [ref=e656] [cursor=pointer]:
+              - /url: /ispc
+            - link "Smalltalk" [ref=e657] [cursor=pointer]:
+              - /url: /smalltalk
+            - link "Nim" [ref=e658] [cursor=pointer]:
+              - /url: /nim
+            - link "Scheme" [ref=e659] [cursor=pointer]:
+              - /url: /scheme
+            - link "J" [ref=e660] [cursor=pointer]:
+              - /url: /j
+            - link "V" [ref=e661] [cursor=pointer]:
+              - /url: /v
+            - link "Raku" [ref=e662] [cursor=pointer]:
+              - /url: /raku
+            - link "Verilog" [ref=e663] [cursor=pointer]:
+              - /url: /verilog
+            - link "VHDL" [ref=e664] [cursor=pointer]:
+              - /url: /vhdl
+            - link "Haxe" [ref=e665] [cursor=pointer]:
+              - /url: /haxe
+            - link "Forth" [ref=e666] [cursor=pointer]:
+              - /url: /forth
+            - link "Icon" [ref=e667] [cursor=pointer]:
+              - /url: /icon
+            - link "Odin" [ref=e668] [cursor=pointer]:
+              - /url: /odin
+            - link "MySQL" [ref=e669] [cursor=pointer]:
+              - /url: /mysql
+            - link "Oracle Database" [ref=e670] [cursor=pointer]:
+              - /url: /oracle
+            - link "PostgreSQL" [ref=e671] [cursor=pointer]:
+              - /url: /postgresql
+            - link "MongoDB" [ref=e672] [cursor=pointer]:
+              - /url: /mongodb
+            - link "SQLite" [ref=e673] [cursor=pointer]:
+              - /url: /sqlite
+            - link "Redis" [ref=e674] [cursor=pointer]:
+              - /url: /redis
+            - link "MariaDB" [ref=e675] [cursor=pointer]:
+              - /url: /mariadb
+            - link "Oracle PL/SQL" [ref=e676] [cursor=pointer]:
+              - /url: /plsql
+            - link "Microsoft SQL Server" [ref=e677] [cursor=pointer]:
+              - /url: /sqlserver
+            - link "IBM Db2" [ref=e678] [cursor=pointer]:
+              - /url: /db2
+            - link "Cassandra" [ref=e679] [cursor=pointer]:
+              - /url: /cassandra
+            - link "QuestDB" [ref=e680] [cursor=pointer]:
+              - /url: /questdb
+            - link "DuckDB" [ref=e681] [cursor=pointer]:
+              - /url: /duckdb
+            - link "SurrealDB" [ref=e682] [cursor=pointer]:
+              - /url: /surrealdb
+            - link "Firebird" [ref=e683] [cursor=pointer]:
+              - /url: /firebird
+            - link "ClickHouse" [ref=e684] [cursor=pointer]:
+              - /url: /clickhouse
+        - generic [ref=e685]:
+          - heading "More" [level=6] [ref=e686]
+          - generic [ref=e687]:
+            - link "Studio" [ref=e688] [cursor=pointer]:
+              - /url: /studio
+            - link "Vibe Coding" [ref=e689] [cursor=pointer]:
+              - /url: /vibecode
+            - link "Design" [ref=e690] [cursor=pointer]:
+              - /url: /design
+            - link "Orgs" [ref=e691] [cursor=pointer]:
+              - /url: /orgs
+            - link "Fluent" [ref=e692] [cursor=pointer]:
+              - /url: /fluent
+            - link "Chat" [ref=e693] [cursor=pointer]:
+              - /url: /chat
+            - link "API" [ref=e694] [cursor=pointer]:
+              - /url: /apis
+            - link "Pricing" [ref=e695] [cursor=pointer]:
+              - /url: /apis/pricing
+          - generic [ref=e696]:
+            - link "Cheatsheets" [ref=e697] [cursor=pointer]:
+              - /url: /cheatsheets
+            - link "Tutorials" [ref=e698] [cursor=pointer]:
+              - /url: /tutorials
+            - link "Tools" [ref=e699] [cursor=pointer]:
+              - /url: /tools
+            - link "AI Tools" [ref=e700] [cursor=pointer]:
+              - /url: /ai
+            - link "AI Pulse" [ref=e701] [cursor=pointer]:
+              - /url: /pulse
+            - link "Stats" [ref=e702] [cursor=pointer]:
+              - /url: /stats
+      - paragraph [ref=e704]:
+        - text: © Copyright 2026 One Compiler Pvt. Ltd. |
+        - link "Privacy Policy" [ref=e705] [cursor=pointer]:
+          - /url: /privacy-policy
+        - text: "|"
+        - link "Terms & Conditions" [ref=e706] [cursor=pointer]:
+          - /url: /terms-and-conditions
+  - alert [ref=e707]
